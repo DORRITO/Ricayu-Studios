@@ -1,8 +1,6 @@
 import React from 'react';
 import {Header, Icon, Table} from 'semantic-ui-react';
 
-// import profileImage from './../images/profileimage.jpg';
-
 const Services = (props) => (
     <div>
     <Header as='h1' textAlign='center'>{props.title}</Header>

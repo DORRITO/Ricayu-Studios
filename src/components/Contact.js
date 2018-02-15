@@ -4,7 +4,7 @@ import {Card} from 'semantic-ui-react';
 const Contact = () => (
     <div className='BackgroundBlack' >
         <div className="BackgroundImage">
-        <h1></h1><h1></h1>
+        <h1>{null}</h1><h1>{null}</h1>
             <div className='Theme-Events'>
                 <Card fluid centered raised color='orange'>
                     <Card.Content textAlign='center'>

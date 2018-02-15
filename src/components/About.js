@@ -1,13 +1,13 @@
 import React from 'react';
-import {Card, Container, Image} from 'semantic-ui-react'
+import {Card, Image} from 'semantic-ui-react'
 
 import ric from './../images/ric.jpg';
-// className="Theme-Carousel"
+
 const About = () => (
     <div className='BackgroundBlack' >
         <div className="BackgroundImage">
-            <h1></h1><h1></h1>
-            <div className="Theme-White" className="Theme-About">
+            <h1>{null}</h1><h1>{null}</h1>
+            <div className="Theme-About">
                 <Image src={ric} centered/>
                 <Card color='orange' centered fluid style={{marginTop: '0rem'}} raised>
                     <Card.Content textAlign='center'>

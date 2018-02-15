@@ -1,12 +1,10 @@
 import React from 'react'
 import {Card} from 'semantic-ui-react'
 
-import Services from './Services';
-
 const Events = () => (
     <div className='BackgroundBlack' >
         <div className="BackgroundImage">
-        <h1></h1><h1></h1>
+        <h1>{null}</h1><h1>{null}</h1>
             <div className='Theme-Events'>
                 <Card fluid centered raised color='orange'>
                     <Card.Content textAlign='center'>
