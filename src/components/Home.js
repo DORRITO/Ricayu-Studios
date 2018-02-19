@@ -4,7 +4,6 @@ import { Carousel } from 'react-responsive-carousel';
 import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 import band from './../images/band.jpg';
-import cake from './../images/cake.jpg';
 import engagement from './../images/engagement.jpg';
 import football from './../images/football.jpg';
 import oceanportrait from './../images/oceanportrait.jpg';
