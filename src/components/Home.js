@@ -28,9 +28,6 @@ const Home = () => (
                 <div>
                 <img alt='senior portrait by the ocean' src={oceanportrait} />
                 </div>
-                <div>
-                   <img alt='newlyweds with cake on their faces' style={{height: '24.2rem'}} src={cake} />
-                </div>
             </Carousel>
             </div>
         </div>
