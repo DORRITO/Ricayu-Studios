@@ -54,7 +54,7 @@
 }
 .Theme-Title{
   font-family: 'Great Vibes', cursive;
-  font-size: 3rem;
+  font-size: 3.3vw;
   color: white;
   margin: 4rem 0 0 65%;
   width: 40rem;
@@ -62,4 +62,11 @@
 
 .Theme-White{
   color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .Theme-Title{
+    font-size: calc(1rem + 2vw);
+    width: 40rem;
+  }
 }
