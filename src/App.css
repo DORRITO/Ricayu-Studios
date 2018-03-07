@@ -31,7 +31,7 @@
 }
 
 .Theme-About{
-  margin: -1rem -10rem 1rem 39rem;
+  margin: -1rem 0rem 1rem 51%;
   width: 60rem;
 }
 
@@ -64,6 +64,11 @@
     margin: -2rem 5rem 0 -5rem;
   }
 
+  .Theme-About{
+    margin: -1rem 0rem 1rem 10%;
+    width: 60rem;
+  }
+
   .Theme-Carousel{
     margin: 4rem 0 0 55vw;
     width: 60%;
@@ -71,10 +76,17 @@
 }
 
 @media only screen and (max-width: 500px) {
+  /* overflow-y: scroll; */
 
   .BackgroundImage{
     background-image: none;
     transform: scale(1);
+  }
+
+  .Theme-About{
+    margin: -17.9rem 0 0 20%;
+    max-height: 90%;
+    width: 100%
   }
 
   .Theme-Carousel{
