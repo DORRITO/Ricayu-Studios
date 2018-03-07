@@ -73,6 +73,11 @@
     margin: 4rem 0 0 55vw;
     width: 60%;
   }
+
+  .Theme-Events{
+    margin: 20% 0 0 50%;
+    width: 30rem;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -97,6 +102,11 @@
     margin: 4rem 0 0 22.5vw;
     width: 90vw;
     height: 50vh;
+  }
+
+  .Theme-Events{
+    margin: 50% 0 0 20%;
+    width: 100%;
   }
 
   .Theme-Title{
