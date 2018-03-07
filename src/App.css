@@ -15,7 +15,7 @@
 
 .BackgroundBlack{
   height: 110vh;
-  background-color: black;
+  background-color: #000;
 }
 
 .Display-Block{
@@ -23,7 +23,7 @@
 }
 
 .Link-Black{
-  color: black;
+  color: #000;
 }
 
 .Main-Theme{
@@ -48,13 +48,13 @@
 .Theme-Title{
   font-family: 'Great Vibes', cursive;
   font-size: 3.3vw;
-  color: white;
+  color: #FFF;
   margin: 4rem 0 0 65%;
   width: 40rem;
 }
 
 .Theme-White{
-  color: white;
+  color: #FFF;
 }
 
 @media only screen and (max-width: 950px) {
@@ -77,6 +77,10 @@
 
 @media only screen and (max-width: 500px) {
   /* overflow-y: scroll; */
+
+  .BackgroundBlack{
+    height: 140vh;
+  }
 
   .BackgroundImage{
     background-image: none;
